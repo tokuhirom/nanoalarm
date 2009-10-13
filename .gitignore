@@ -1,0 +1,3 @@
+Makefile
+t/01_simple
+*.o
