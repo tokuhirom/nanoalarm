@@ -40,7 +40,12 @@ namespace nanoalarm {
     public:
         Alarm(unsigned int seconds) {
             last_seconds_ = alarm(seconds);
+
+            sigset_t block;
+            sigemptyset( &block );
+
             struct sigaction sa;
+            sa.sa_mask    = block;
             sa.sa_handler = &Alarm::nop_sighandler;
             sa.sa_flags   = 0;
             sigaction(SIGALRM, &sa, &last_sa_);
