@@ -1,0 +1,2 @@
+iwin32 support
+- 別スレッド使った alarm 実装して WSACancelBlockingCall 呼ぶとか :wq
