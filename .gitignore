@@ -1,3 +1,9 @@
 Makefile
 t/01_simple
 *.o
+/01_simple
+/CMakeCache.txt
+/CMakeFiles/
+/CTestTestfile.cmake
+/Testing/
+/cmake_install.cmake

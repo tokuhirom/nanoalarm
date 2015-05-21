@@ -24,6 +24,7 @@
 #define NANOALARM_H_
 
 #include <signal.h>
+#include <unistd.h>
 
 namespace nanoalarm {
     class Alarm {
