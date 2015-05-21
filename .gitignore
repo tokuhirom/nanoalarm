@@ -1,7 +1,6 @@
 Makefile
 t/01_simple
 *.o
-/01_simple
 /CMakeCache.txt
 /CMakeFiles/
 /CTestTestfile.cmake
