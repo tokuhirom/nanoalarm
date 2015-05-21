@@ -1,5 +1,7 @@
 # nanoalarm
 
+[![Build Status](https://travis-ci.org/tokuhirom/nanoalarm.svg?branch=master)](https://travis-ci.org/tokuhirom/nanoalarm)
+
 simple RAII alarm for C++
 
 # SYNOPSIS
