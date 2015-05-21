@@ -1,5 +1,17 @@
 # nanoalarm
+
 simple RAII alarm for C++
+
+# SYNOPSIS
+
+    int main() {
+        nanoalarm::Alarm a(1);
+        pause();
+
+        ok(1, "passed");
+
+        done_testing();
+    }
 
 # LICENSE
 
